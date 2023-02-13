@@ -2,6 +2,7 @@ class RGB:
     red: int
     green: int
     blue: int
+
     def __init__(self, red, green, blue):
         self.red = red
         self.green = green
