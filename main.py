@@ -4,7 +4,7 @@ from PIL import Image
 from file_manipulator import FileManipulator
 
 file_name = sys.argv[1]
-step = 4
+step = int(sys.argv[2])
 
 
 def main():
