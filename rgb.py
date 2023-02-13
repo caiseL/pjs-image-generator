@@ -8,5 +8,5 @@ class RGB:
         self.blue = blue
 
     def from_tuple(tuple):
-        red, green, blue = tuple
+        red, green, blue = tuple[0], tuple[1], tuple[2]
         return RGB(red, green, blue)
